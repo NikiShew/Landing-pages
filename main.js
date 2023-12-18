@@ -7,6 +7,9 @@ document.addEventListener('mousemove', function (e) {
 
     let movingText = document.querySelectorAll('.moving');
     let purpleBall = document.querySelector(".moving-slow");
+    document.querySelectorAll('.moving-fast').forEach((elem) =>{
+        elem.style.transform = `translate(${distanceX / 50}px, ${distanceY / 50}px)`;
+    })
     purpleBall.style.transform = `translate(${distanceX / 500}px, ${distanceY / 500}px)`
 
 
