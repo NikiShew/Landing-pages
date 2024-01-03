@@ -1,4 +1,4 @@
 # Landing-pages
 
-weblex 
+weblex , --
 без адаптива
